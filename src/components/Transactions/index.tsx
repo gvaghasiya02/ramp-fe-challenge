@@ -1,3 +1,4 @@
+import { networkInterfaces } from "os"
 import { useCallback } from "react"
 import { useCustomFetch } from "src/hooks/useCustomFetch"
 import { SetTransactionApprovalParams } from "src/utils/types"
